@@ -55,5 +55,7 @@
 	<string>Access Camera</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Access Camera Roll</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Access Contacts</string>
 </dict>
 </plist>
