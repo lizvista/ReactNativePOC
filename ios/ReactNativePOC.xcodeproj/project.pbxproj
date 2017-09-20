@@ -39,7 +39,11 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		C8D16525CE1741C7AECEB109 /* libBleManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 551F16A8DB6A41AE9911E728 /* libBleManager.a */; };
 		D5DBF679387741BBA0430C7E /* libRNFetchBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B4700D7A4D488781C76D43 /* libRNFetchBlob.a */; };
+<<<<<<< HEAD
 		E39D7B51C427498693AAAE9D /* libRCTCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3276891E0751424B8376A1B1 /* libRCTCamera.a */; };
+=======
+		142E195FEEFF466783B9C398 /* libRCTContacts.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A256FE406DD40B68366E19F /* libRCTContacts.a */; };
+>>>>>>> d85accef0ca2b3497478d76f09a71f5135873750
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -298,9 +302,20 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		A321FB916D0341AA8EAA1952 /* RNFetchBlob.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFetchBlob.xcodeproj; path = "../node_modules/react-native-fetch-blob/ios/RNFetchBlob.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		C0B4700D7A4D488781C76D43 /* libRNFetchBlob.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFetchBlob.a; sourceTree = "<group>"; };
 		D00337A758584C7CAB20F228 /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; };
 		F1FEC02E6832421F88EB2879 /* BleManager.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = BleManager.xcodeproj; path = "../node_modules/react-native-ble-manager/ios/BleManager.xcodeproj"; sourceTree = "<group>"; };
+=======
+		D00337A758584C7CAB20F228 /* RCTCamera.xcodeproj */ = {isa = PBXFileReference; name = "RCTCamera.xcodeproj"; path = "../node_modules/react-native-camera/ios/RCTCamera.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		3276891E0751424B8376A1B1 /* libRCTCamera.a */ = {isa = PBXFileReference; name = "libRCTCamera.a"; path = "libRCTCamera.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		F1FEC02E6832421F88EB2879 /* BleManager.xcodeproj */ = {isa = PBXFileReference; name = "BleManager.xcodeproj"; path = "../node_modules/react-native-ble-manager/ios/BleManager.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		551F16A8DB6A41AE9911E728 /* libBleManager.a */ = {isa = PBXFileReference; name = "libBleManager.a"; path = "libBleManager.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		A321FB916D0341AA8EAA1952 /* RNFetchBlob.xcodeproj */ = {isa = PBXFileReference; name = "RNFetchBlob.xcodeproj"; path = "../node_modules/react-native-fetch-blob/ios/RNFetchBlob.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		C0B4700D7A4D488781C76D43 /* libRNFetchBlob.a */ = {isa = PBXFileReference; name = "libRNFetchBlob.a"; path = "libRNFetchBlob.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		14C28340A610477EB5B68150 /* RCTContacts.xcodeproj */ = {isa = PBXFileReference; name = "RCTContacts.xcodeproj"; path = "../node_modules/react-native-contacts/ios/RCTContacts.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		9A256FE406DD40B68366E19F /* libRCTContacts.a */ = {isa = PBXFileReference; name = "libRCTContacts.a"; path = "libRCTContacts.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+>>>>>>> d85accef0ca2b3497478d76f09a71f5135873750
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +347,7 @@
 				E39D7B51C427498693AAAE9D /* libRCTCamera.a in Frameworks */,
 				C8D16525CE1741C7AECEB109 /* libBleManager.a in Frameworks */,
 				D5DBF679387741BBA0430C7E /* libRNFetchBlob.a in Frameworks */,
+				142E195FEEFF466783B9C398 /* libRCTContacts.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +542,7 @@
 				D00337A758584C7CAB20F228 /* RCTCamera.xcodeproj */,
 				F1FEC02E6832421F88EB2879 /* BleManager.xcodeproj */,
 				A321FB916D0341AA8EAA1952 /* RNFetchBlob.xcodeproj */,
+				14C28340A610477EB5B68150 /* RCTContacts.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1117,10 +1134,20 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
+<<<<<<< HEAD
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
+=======
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-camera\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-contacts\ios\RCTContacts",
+>>>>>>> d85accef0ca2b3497478d76f09a71f5135873750
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativePOC.app/ReactNativePOC";
@@ -1146,10 +1173,20 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
+<<<<<<< HEAD
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
+=======
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-camera\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-contacts\ios\RCTContacts",
+>>>>>>> d85accef0ca2b3497478d76f09a71f5135873750
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativePOC.app/ReactNativePOC";
@@ -1177,6 +1214,16 @@
 				);
 				PRODUCT_NAME = ReactNativePOC;
 				VERSIONING_SYSTEM = "apple-generic";
+<<<<<<< HEAD
+=======
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-camera\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-contacts\ios\RCTContacts",
+				);
+>>>>>>> d85accef0ca2b3497478d76f09a71f5135873750
 			};
 			name = Debug;
 		};
@@ -1200,6 +1247,16 @@
 				);
 				PRODUCT_NAME = ReactNativePOC;
 				VERSIONING_SYSTEM = "apple-generic";
+<<<<<<< HEAD
+=======
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-camera\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-contacts\ios\RCTContacts",
+				);
+>>>>>>> d85accef0ca2b3497478d76f09a71f5135873750
 			};
 			name = Release;
 		};
@@ -1238,6 +1295,23 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
+<<<<<<< HEAD
+=======
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-camera\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-contacts\ios\RCTContacts",
+				);
+>>>>>>> d85accef0ca2b3497478d76f09a71f5135873750
 			};
 			name = Debug;
 		};
@@ -1276,6 +1350,23 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
+<<<<<<< HEAD
+=======
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)\..\node_modules\react-native-camera\ios",
+					"$(SRCROOT)\..\node_modules\react-native-ble-manager\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-fetch-blob\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-contacts\ios\RCTContacts",
+				);
+>>>>>>> d85accef0ca2b3497478d76f09a71f5135873750
 			};
 			name = Release;
 		};
@@ -1294,6 +1385,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
@@ -1321,6 +1413,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
