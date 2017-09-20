@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
   StyleSheet,
   Dimensions,
@@ -9,6 +10,7 @@ import {
   Image,
   CameraRoll,
   ListView,
+  ScrollView,
 } from 'react-native';
 import RNFetchBlob from 'react-native-fetch-blob';
 
@@ -24,11 +26,12 @@ export class Screen4 extends Component {
     getPics = () => {
         CameraRoll.getPhotos({
             first: 4,
+            assetType: 'All',
         })
         .then(r => this.setState({ photos: r.edges }))
     }
 
-    convertToBase64 = () => {
+    /*convertToBase64 = () => {
         let urls = [];
         for (let photo of this.state.photos) {
             let path = photo.node.image.uri;
@@ -40,14 +43,21 @@ export class Screen4 extends Component {
                 this.setState(urls);
             })
         }
+    }*/
+
+    componentWillMount = () => {
+        console.log('here');
+        this.getPics();
     }
 
     render() {
         const { navigate } = this.props.navigation;
-        const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 != r2});
-        this.getPics();
-        this.convertToBase64();
-        console.log(this.state.urls);
+        const photos = this.state.photos;
+        console.log(photos);
+        //const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 != r2});
+        //this.getPics();
+        //this.convertToBase64();
+        //console.log(this.state.urls);
         return(
             <View>
                 <View style={[styles.statusBar]}>
@@ -55,6 +65,18 @@ export class Screen4 extends Component {
                     <Text style={[styles.menuFont]}>Menu</Text>
                     </TouchableOpacity>
                 </View>
+                <ScrollView 
+                    contentContainerStyle={styles.scrollView}>
+                    {
+                        photos.forEach((p) => {
+                            return (
+                                <Image 
+                                  source={{uri: p.node.image.uri}}
+                                />
+                            )
+                        })
+                    }
+                </ScrollView>
             </View>
         );
     }
@@ -71,5 +93,9 @@ const styles = StyleSheet.create({
     menuFont: {
         fontSize: 14,
         color: '#ffffff',
+    },
+    scrollView: {
+        flexWrap: 'wrap',
+        flexDirection: 'row',
     },
 });

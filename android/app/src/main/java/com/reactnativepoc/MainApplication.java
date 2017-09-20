@@ -3,6 +3,7 @@ package com.reactnativepoc;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.rt2zz.reactnativecontacts.ReactNativeContacts;
 import com.RNFetchBlob.RNFetchBlobPackage;
 import it.innove.BleManagerPackage;
 import com.lwansbrough.RCTCamera.RCTCameraPackage;
@@ -26,6 +27,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new ReactNativeContacts(),
             new RNFetchBlobPackage(),
             new BleManagerPackage(),
             new RCTCameraPackage()
