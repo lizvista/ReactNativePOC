@@ -38,7 +38,6 @@ export class Screen7 extends Component {
 
     render() {
         const { navigate } = this.props.navigation;
-        console.log(this.state.seconds);
         return(
             <View>
                 <View style={[styles.statusBar]}>
@@ -57,6 +56,7 @@ export class Screen7 extends Component {
                         <Picker.Item label="10" value={10}/>
                         <Picker.Item label="15" value={15}/>
                     </Picker>
+                    <PushController />
                 </View>
             </View>
         );
