@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';
 import { DrawerNavigator } from 'react-navigation';
 
-import { Screen1 } from './app/screens/screen1.js';
-import { Screen3 } from './app/screens/screen3.js';
-import { Screen4 } from './app/screens/screen4.js';
-import { Screen5 } from './app/screens/screen5.js';
-import { Screen6 } from './app/screens/screen6.js';
+import { Screen1 } from './app/screens/Screen1.js';
+import { Screen3 } from './app/screens/Screen3.js';
+import { Screen4 } from './app/screens/Screen4.js';
+import { Screen5 } from './app/screens/Screen5.js';
+import { Screen6 } from './app/screens/Screen6.js';
 
 const ReactNativePOC = DrawerNavigator ({
     Home: {
