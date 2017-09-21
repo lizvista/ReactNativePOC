@@ -28,7 +28,7 @@ const ReactNativePOC = DrawerNavigator ({
         screen: Screen6,
     },
     PushNotifications: {
-      screen: Screen7,
+        screen: Screen7,
     },
 });
 
