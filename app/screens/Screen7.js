@@ -10,7 +10,7 @@ import {
 import PushController from '../tools/PushController.js';
 import PushNotification from 'react-native-push-notification';
 
-export class Screen1 extends Component {
+export class Screen7 extends Component {
     constructor(props) {
         super(props);
         this.state = {
