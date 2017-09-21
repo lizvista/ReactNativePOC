@@ -7,6 +7,7 @@ import { Screen3 } from './app/screens/Screen3.js';
 import { Screen4 } from './app/screens/Screen4.js';
 import { Screen5 } from './app/screens/Screen5.js';
 import { Screen6 } from './app/screens/Screen6.js';
+import { Screen7 } from './app/screens/Screen7.js';
 
 console.disableYellowBox = true;
 
@@ -25,7 +26,10 @@ const ReactNativePOC = DrawerNavigator ({
     },
     Contacts: {
         screen: Screen6,
-    }
+    },
+    PushNotifications: {
+      screen: Screen7,
+    },
 });
 
 AppRegistry.registerComponent('ReactNativePOC', () => ReactNativePOC);
