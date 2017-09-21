@@ -50,7 +50,11 @@ export class Screen7 extends Component {
                     style={[styles.picker]}
                     selectedValue={this.state.seconds}
                     onValueChange={(seconds) => this.setState({seconds})}
-                    />
+                    >
+                        <Picker.Item label="5" value={5}/>
+                        <Picker.Item label="10" value={10}/>
+                        <Picker.Item label="15" value={15}/>
+                    </Picker>
                 </View>
             </View>
         );
