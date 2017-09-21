@@ -15,7 +15,7 @@ export class Screen7 extends Component {
         super(props);
         this.state = {
             seconds: 5,
-        };
+        }
     }
 
     componentDidMount() {
