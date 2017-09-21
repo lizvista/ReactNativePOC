@@ -9,7 +9,7 @@ import { Screen5 } from './app/screens/Screen5.js';
 import { Screen6 } from './app/screens/Screen6.js';
 import { Screen7 } from './app/screens/Screen7.js';
 
-console.disableYellowBox = true;
+//console.disableYellowBox = true;
 
 const ReactNativePOC = DrawerNavigator ({
     Home: {
@@ -27,7 +27,7 @@ const ReactNativePOC = DrawerNavigator ({
     Contacts: {
         screen: Screen6,
     },
-    PushNotifications: {
+    Notification: {
         screen: Screen7,
     },
 });
