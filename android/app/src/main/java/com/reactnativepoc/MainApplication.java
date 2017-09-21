@@ -4,10 +4,10 @@ import android.app.Application;
 
 import com.facebook.react.ReactApplication;
 import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
-import com.rt2zz.reactnativecontacts.ReactNativeContacts;
 import com.RNFetchBlob.RNFetchBlobPackage;
-import it.innove.BleManagerPackage;
+import com.rt2zz.reactnativecontacts.ReactNativeContacts;
 import com.lwansbrough.RCTCamera.RCTCameraPackage;
+import it.innove.BleManagerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -29,10 +29,10 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
             new ReactNativePushNotificationPackage(),
-            new ReactNativeContacts(),
             new RNFetchBlobPackage(),
-            new BleManagerPackage(),
-            new RCTCameraPackage()
+            new ReactNativeContacts(),
+            new RCTCameraPackage(),
+            new BleManagerPackage()
       );
     }
   };
