@@ -27,11 +27,10 @@ export class Screen7 extends Component {
     }
 
     handleAppStateChange(appState) {
-        const val = this.state.seconds;
         if(appState == 'background') {
             PushNotification.localNotificationSchedule({
                 message: "My Push Notification",
-                date: new Date(Date.now() + (val * 1000)).toISOString(),
+                date: new Date(Date.now() + (5 * 1000)).toISOString(),
             });
         }
     }
